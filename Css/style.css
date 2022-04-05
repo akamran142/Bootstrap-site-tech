@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(44, 40, 40);
+  font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  background: -webkit-linear-gradient(#7070d1, #1554c7);
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+}
+.hero-text h1 {
+  font-weight: 700;
+  color: rgb(250, 249, 249);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+nav {
+  box-shadow: 0 7px 6px -2px rgba(0, 0, 0, 0.2);
+}
+.nav-ul li a {
+  font-weight: 600;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  /* color: rgb(46, 40, 40); */
+  line-height: 1.7;
+  z-index: 2;
+  position: relative;
+  background-attachment: fixed;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, rgb(145, 234, 228), rgb(127, 127, 213));
+  opacity: 0.9;
+  z-index: -1;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn-main {
+  background: linear-gradient(to left, rgb(127, 127, 213), #86a8e7);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-main:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Section  */
+#services {
+  height: fit-content;
+  padding-bottom: 80px;
+}
+#services h1 {
+  font-weight: 700;
+}
+
+.servic-text h3 {
+  color: #000;
+}
+.box-shadow {
+  width: 350px;
+  height: 400px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.divider {
+  width: 75px;
+  height: 5px;
+  background: #000;
+  border-radius: 50px;
+  background: linear-gradient(to left, #7f7fd5, #86a8e7);
+}
+.col-md-4 .img-div {
+  width: 300px;
+  height: 200px;
+  /* border: 2px solid black; */
+  position: relative;
+}
+.img-div i {
+  height: 70px;
+  width: 70px;
+  font-size: 2.2rem;
+  background: linear-gradient(to left, rgb(127, 127, 213), #86a8e7);
+  border-radius: 100%;
+  color: rgb(252, 252, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translatex(-50px);
+  left: 55%;
+  bottom: -35px;
+}
+.servic-text {
+  transform: translateY(-40px);
+}
+
+/* About Section  */
+#about {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about .overlay {
+  width: 100%;
+  height: 500px;
+}
+#about h1 {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.hero-text p {
+  font-size: 1.2rem;
+}
+.play-btn {
+  color: antiquewhite;
+  font-size: 3rem;
+}
+
+/* Feature section  */
+.icon-div i {
+  font-size: 4rem;
+  color: #7f7fd5;
+}
+#feature {
+  width: 100%;
+  height: fit-content;
+}
+/* Counter Section */
+#counter {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(145, 234, 228),
+    rgb(127, 127, 213)
+  );
+}
+
+/* Counter item */
+.counter-item {
+  margin: 30px 0;
+}
+
+.counter-item i {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+.counter-item h1 {
+  font-size: 3rem;
+  color: white;
+}
+.counter-item span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+/* Review Section  */
+#reviews,
+#blog {
+  height: fit-content;
+}
+
+#reviews .box-shadow {
+  height: 350px;
+  width: 300px;
+}
+.icon img {
+  width: 60px;
+  height: 60px;
+}
+.review-top {
+  display: flex;
+}
+.name-text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  line-height: 0.5;
+  margin-top: 10px;
+}
+.textAndStar {
+  margin-top: 10px;
+}
+.textAndStar i {
+  color: #ffd32d;
+}
+
+#contact,
+#contact .overlay {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.form-div {
+  height: fit-content;
+}
